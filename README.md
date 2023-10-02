@@ -45,7 +45,19 @@ Secret Access Key: 9hJfxX5ajBuYYRuw7gzmQ2m3ILmHbAKDjyrXrBZo
 6. Create AWS Glue Catalog : Info about the data and what it contains.
    !<img width="818" alt="Screenshot 2023-09-21 at 9 41 10 PM" src="https://github.com/itsmeBhavana/YouTube-analysis/assets/3799601
     1/a89ab0d2-7e55-43c1-aa06-20b8a508d3bc">  
-   !<img width="838" alt="Screenshot 2023-09-21 at 9 42 31 PM" src="https://github.com/itsmeBhavana/YouTube-analysis/assets/37996011/6064c3ca-493d-41f7-8e53-125d474f0ebe">   
+   !<img width="838" alt="Screenshot 2023-09-21 at 9 42 31 PM" src="https://github.com/itsmeBhavana/YouTube-analysis/assets/37996011/6064c3ca-493d-41f7-8e53-125d474f0ebe">
+7. Open with Athena Tables. Athena is an Adhoc query tool that is used to query SQL.
+8. Run Lambda function to do the preprocessing i.e to convert from
+9. Do the ETL upon the cleansed data using Glue ETL Jobs.
+10. Extract the data from the raw bucket
+11. Transformations-change schema
+12. All the data types are converted into strings. Manually unchange them to boolean and bigint.
+13. Spark file is created.
+14. Edit the spark file
+15. The output data will be available in a single file.
+16. So, we need to do some optimizations in the code so as to represent the region wise partitions like in the input folder.
+17. Add a partition key that is Region
+18. 
 
    
    
